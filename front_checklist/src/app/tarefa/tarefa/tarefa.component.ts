@@ -13,7 +13,7 @@ export class TarefaComponent implements OnInit {
 
 
   tarefas: Observable<Tarefa[]>;
-  displayedColumns = ['nome', 'prioridade', 'horamarcada', 'status'];
+  displayedColumns = ['nome', 'prioridade', 'horamarcada', 'status', 'acoes'];
 
 
   constructor(private tarefaService: TarefasService) {

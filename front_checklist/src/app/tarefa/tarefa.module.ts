@@ -6,6 +6,9 @@ import { TarefaRoutingModule } from './tarefa-routing.module';
 import { TarefaComponent } from './tarefa/tarefa.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import {MatButtonModule} from '@angular/material/button';
+import {MatIconModule} from '@angular/material/icon';
+
 
 
 
@@ -18,7 +21,9 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     TarefaRoutingModule,
     MatTableModule,
     MatCardModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatButtonModule,
+    MatIconModule
   ]
 })
 export class TarefaModule { }
